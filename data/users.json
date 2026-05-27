@@ -1,0 +1,38 @@
+[
+  {
+    "email": "user@enculture.ai",
+    "password_hash": "$2b$12$pB5V4zu5K63WRkDWj6.Xt.b36ZBaoM/1//AE.TqrPV.MoQtow7JAe",
+    "name": "User",
+    "role": "USER",
+    "avatar_url": "",
+    "settings": {
+      "aws_access_key": "",
+      "aws_secret_key": "",
+      "aws_region": "us-east-1",
+      "openai_api_key": "",
+      "openai_model": "gpt-4o",
+      "enabled_tools": [],
+      "system_prompt": ""
+    },
+    "created_at": "2026-04-15T09:19:28.683193",
+    "_id": "69df5820bfb48779b728e087"
+  },
+  {
+    "email": "admin@enculture.ai",
+    "password_hash": "$2b$12$xjO.2MGjvMXlOL7erYiOC.BOWjtePjMfCxIv.AKOvzJI/1DVV4iJG",
+    "name": "Admin",
+    "role": "ADMIN",
+    "avatar_url": "",
+    "settings": {
+      "aws_access_key": "",
+      "aws_secret_key": "",
+      "aws_region": "us-east-1",
+      "openai_api_key": "",
+      "openai_model": "gpt-4o",
+      "enabled_tools": [],
+      "system_prompt": ""
+    },
+    "created_at": "2026-04-15T09:19:28.851774",
+    "_id": "69df5820bfb48779b728e088"
+  }
+]

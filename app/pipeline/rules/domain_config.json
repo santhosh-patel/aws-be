@@ -1,0 +1,113 @@
+{
+    "cost": {
+        "keywords": [
+            "cost",
+            "billing",
+            "spend",
+            "charges",
+            "invoice",
+            "bill",
+            "price",
+            "payment",
+            "expense",
+            "budget",
+            "money"
+        ],
+        "tools": [
+            "aws_get_today_cost",
+            "aws_get_yesterday_cost",
+            "aws_get_current_month_cost",
+            "aws_get_last_month_cost",
+            "aws_get_cost_by_service",
+            "aws_get_cost_by_region",
+            "aws_get_cost_by_linked_account",
+            "aws_get_cost_by_usage_type",
+            "aws_get_cost_by_tag",
+            "aws_get_cost_trend",
+            "aws_get_cost_forecast",
+            "aws_get_cost_by_time_range"
+        ]
+    },
+    "inventory": {
+        "keywords": [
+            "list",
+            "show",
+            "instances",
+            "buckets",
+            "resources",
+            "running",
+            "ec2",
+            "s3",
+            "rds",
+            "lambda",
+            "eks",
+            "ecs",
+            "inventory",
+            "servers",
+            "databases",
+            "storage"
+        ],
+        "tools": [
+            "aws_list_ec2_instances",
+            "aws_list_s3_buckets",
+            "aws_list_rds_instances",
+            "aws_list_lambda_functions",
+            "aws_list_eks_clusters",
+            "aws_list_load_balancers",
+            "aws_list_nat_gateways"
+        ]
+    },
+    "logs": {
+        "keywords": [
+            "logs",
+            "cloudwatch",
+            "log group",
+            "log events",
+            "fetch logs",
+            "application logs",
+            "logging",
+            "log stream"
+        ],
+        "tools": [
+            "aws_get_cloudwatch_logs",
+            "aws_list_cloudwatch_log_groups",
+            "aws_get_log_events"
+        ]
+    },
+    "account": {
+        "keywords": [
+            "account",
+            "regions",
+            "identity",
+            "organization",
+            "caller",
+            "enabled",
+            "org",
+            "member accounts"
+        ],
+        "tools": [
+            "aws_get_account_id",
+            "aws_get_enabled_regions",
+            "aws_list_organization_accounts",
+            "aws_describe_organization",
+            "aws_get_account_alias",
+            "aws_get_caller_identity"
+        ]
+    },
+    "metrics": {
+        "keywords": [
+            "metrics",
+            "cloudwatch metrics",
+            "cpu",
+            "memory",
+            "disk",
+            "network",
+            "performance",
+            "monitoring"
+        ],
+        "tools": [
+            "aws_list_cloudwatch_metrics",
+            "aws_get_cloudwatch_metric_data"
+        ]
+    }
+}

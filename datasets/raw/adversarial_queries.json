@@ -1,0 +1,102 @@
+[
+    {
+        "query": "lambda forecast instances",
+        "expected_tool": null,
+        "note": "Conflicting intent (forecast vs instances). Should clarify."
+    },
+    {
+        "query": "billing lambda functions list",
+        "expected_tool": null,
+        "note": "Conflicting intent (billing vs list). Should clarify."
+    },
+    {
+        "query": "regional forecast bucket usage",
+        "expected_tool": null,
+        "note": "Triplet conflict (region + forecast + resource). Should clarify."
+    },
+    {
+        "query": "history breakdown projection",
+        "expected_tool": "aws_get_cost_forecast",
+        "note": "Projection keyword should arguably win, or clarify. Deterministic might pick Trend or Forecast."
+    },
+    {
+        "query": "show me the cost of my ec2 instance but only for the future",
+        "expected_tool": "aws_get_cost_forecast",
+        "note": "Complex phrasing. Future -> Forecast."
+    },
+    {
+        "query": "list all my bills",
+        "expected_tool": "aws_get_current_month_cost",
+        "note": "Generic billing rule should catch this."
+    },
+    {
+        "query": "aws s3 cost prediction by region",
+        "expected_tool": "aws_get_cost_forecast",
+        "note": "Prediction keyword should win. Or Region? Forecast usually global or filtered. 'by region' might imply Breakdown. Ambiguous."
+    },
+    {
+        "query": "compare last month to next month",
+        "expected_tool": "aws_get_cost_forecast",
+        "note": "Time range conflict. Next month -> Forecast."
+    },
+    {
+        "query": "what is the cost of my unknown_service",
+        "expected_tool": "aws_get_cost_by_service",
+        "note": "Service breakdown should handle unknown service names naturally."
+    },
+    {
+        "query": "breakdown by availability zone",
+        "expected_tool": null,
+        "note": "Unsupported dimension. Should clarify or fail safe."
+    },
+    {
+        "query": "forecast weather",
+        "expected_tool": null,
+        "note": "Out of domain. Should clarify."
+    },
+    {
+        "query": "cost of running nothing",
+        "expected_tool": "aws_get_current_month_cost",
+        "note": "Generic cost query."
+    },
+    {
+        "query": "predict my bill for 2028",
+        "expected_tool": "aws_get_cost_forecast",
+        "note": "Far future forecast."
+    },
+    {
+        "query": "show me the money",
+        "expected_tool": "aws_get_current_month_cost",
+        "note": "Slang. Generic billing rule might miss, or clarification."
+    },
+    {
+        "query": "ec2 instances cost trend",
+        "expected_tool": "aws_get_cost_trend",
+        "note": "Valid composite. Trend should win over resource list."
+    },
+    {
+        "query": "usage report",
+        "expected_tool": "aws_get_current_month_cost",
+        "note": "Vague. Usage = Cost?"
+    },
+    {
+        "query": "spending limit",
+        "expected_tool": null,
+        "note": "Budget feature not implemented? Clarify."
+    },
+    {
+        "query": "ri utilization",
+        "expected_tool": null,
+        "note": "Reserved Instances not supported. Clarify."
+    },
+    {
+        "query": "savings plan coverage",
+        "expected_tool": null,
+        "note": "Not supported. Clarify."
+    },
+    {
+        "query": "delete my account",
+        "expected_tool": null,
+        "note": "Dangerous. Should definitely NOT map to anything."
+    }
+]

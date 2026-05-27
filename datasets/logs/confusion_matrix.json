@@ -1,0 +1,8 @@
+{
+  "None -> aws_get_cost_forecast": 3,
+  "None -> aws_list_lambda_functions": 1,
+  "aws_get_current_month_cost -> None": 4,
+  "aws_get_cost_forecast -> aws_get_cost_by_region": 1,
+  "aws_get_cost_forecast -> aws_get_last_month_cost": 1,
+  "aws_get_cost_by_service -> None": 1
+}

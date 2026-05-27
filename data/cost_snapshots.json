@@ -1,0 +1,1193 @@
+[
+  {
+    "user_id": "69df5820bfb48779b728e088",
+    "query_type": "COST_TIME_SERIES",
+    "time_range": {},
+    "total_cost": 761.33,
+    "currency": "USD",
+    "breakdown": null,
+    "granularity": "DAILY",
+    "points": [
+      {
+        "date": "2026-04-01",
+        "cost": 174.18
+      },
+      {
+        "date": "2026-04-02",
+        "cost": 41.91
+      },
+      {
+        "date": "2026-04-03",
+        "cost": 41.36
+      },
+      {
+        "date": "2026-04-04",
+        "cost": 41.34
+      },
+      {
+        "date": "2026-04-05",
+        "cost": 41.13
+      },
+      {
+        "date": "2026-04-06",
+        "cost": 41.88
+      },
+      {
+        "date": "2026-04-07",
+        "cost": 43.2
+      },
+      {
+        "date": "2026-04-08",
+        "cost": 44.74
+      },
+      {
+        "date": "2026-04-09",
+        "cost": 44.6
+      },
+      {
+        "date": "2026-04-10",
+        "cost": 43.65
+      },
+      {
+        "date": "2026-04-11",
+        "cost": 42.54
+      },
+      {
+        "date": "2026-04-12",
+        "cost": 45.62
+      },
+      {
+        "date": "2026-04-13",
+        "cost": 44.27
+      },
+      {
+        "date": "2026-04-14",
+        "cost": 45.61
+      },
+      {
+        "date": "2026-04-15",
+        "cost": 25.29
+      },
+      {
+        "date": "2026-04-16",
+        "cost": 0.0
+      }
+    ],
+    "metadata": {},
+    "captured_at": "2026-04-16T06:33:23.911794",
+    "_id": "69e082b353bd0c8c90e86a2b"
+  },
+  {
+    "user_id": "69df5820bfb48779b728e088",
+    "query_type": "COST_BREAKDOWN",
+    "time_range": {},
+    "total_cost": 761.33,
+    "currency": "USD",
+    "breakdown": [
+      {
+        "name": "Amazon Relational Database Service",
+        "cost": 247.95
+      },
+      {
+        "name": "Amazon Elastic Compute Cloud - Compute",
+        "cost": 200.38
+      },
+      {
+        "name": "Tax",
+        "cost": 116.15
+      },
+      {
+        "name": "Amazon Virtual Private Cloud",
+        "cost": 49.67
+      },
+      {
+        "name": "AWS App Runner",
+        "cost": 47.9
+      },
+      {
+        "name": "EC2 - Other",
+        "cost": 45.08
+      },
+      {
+        "name": "Amazon Elastic Load Balancing",
+        "cost": 26.93
+      },
+      {
+        "name": "CloudFront Flat-Rate Plans",
+        "cost": 15.0
+      },
+      {
+        "name": "AWS Secrets Manager",
+        "cost": 4.33
+      },
+      {
+        "name": "Amazon Simple Storage Service",
+        "cost": 3.94
+      },
+      {
+        "name": "Amazon Elastic Container Service",
+        "cost": 2.12
+      },
+      {
+        "name": "Amazon Simple Email Service",
+        "cost": 0.93
+      },
+      {
+        "name": "AWS Key Management Service",
+        "cost": 0.48
+      },
+      {
+        "name": "Amazon API Gateway",
+        "cost": 0.2
+      },
+      {
+        "name": "AWS Lambda",
+        "cost": 0.14
+      },
+      {
+        "name": "AWS Cost Explorer",
+        "cost": 0.09
+      },
+      {
+        "name": "AmazonCloudWatch",
+        "cost": 0.03
+      },
+      {
+        "name": "Amazon EC2 Container Registry (ECR)",
+        "cost": 0.0
+      },
+      {
+        "name": "Amazon Bedrock",
+        "cost": 0.0
+      },
+      {
+        "name": "Amazon CloudFront",
+        "cost": 0.0
+      }
+    ],
+    "granularity": null,
+    "points": null,
+    "metadata": {},
+    "captured_at": "2026-04-16T06:34:01.259919",
+    "_id": "69e082d953bd0c8c90e86a2f"
+  },
+  {
+    "user_id": "69df5820bfb48779b728e088",
+    "query_type": "COST_BREAKDOWN",
+    "time_range": {},
+    "total_cost": 761.33,
+    "currency": "USD",
+    "breakdown": [
+      {
+        "name": "Amazon Relational Database Service",
+        "cost": 247.95
+      },
+      {
+        "name": "Amazon Elastic Compute Cloud - Compute",
+        "cost": 200.38
+      },
+      {
+        "name": "Tax",
+        "cost": 116.15
+      },
+      {
+        "name": "Amazon Virtual Private Cloud",
+        "cost": 49.67
+      },
+      {
+        "name": "AWS App Runner",
+        "cost": 47.9
+      },
+      {
+        "name": "EC2 - Other",
+        "cost": 45.08
+      },
+      {
+        "name": "Amazon Elastic Load Balancing",
+        "cost": 26.93
+      },
+      {
+        "name": "CloudFront Flat-Rate Plans",
+        "cost": 15.0
+      },
+      {
+        "name": "AWS Secrets Manager",
+        "cost": 4.33
+      },
+      {
+        "name": "Amazon Simple Storage Service",
+        "cost": 3.94
+      },
+      {
+        "name": "Amazon Elastic Container Service",
+        "cost": 2.12
+      },
+      {
+        "name": "Amazon Simple Email Service",
+        "cost": 0.93
+      },
+      {
+        "name": "AWS Key Management Service",
+        "cost": 0.48
+      },
+      {
+        "name": "Amazon API Gateway",
+        "cost": 0.2
+      },
+      {
+        "name": "AWS Lambda",
+        "cost": 0.14
+      },
+      {
+        "name": "AWS Cost Explorer",
+        "cost": 0.09
+      },
+      {
+        "name": "AmazonCloudWatch",
+        "cost": 0.03
+      },
+      {
+        "name": "Amazon EC2 Container Registry (ECR)",
+        "cost": 0.0
+      },
+      {
+        "name": "Amazon Bedrock",
+        "cost": 0.0
+      },
+      {
+        "name": "Amazon CloudFront",
+        "cost": 0.0
+      }
+    ],
+    "granularity": null,
+    "points": null,
+    "metadata": {},
+    "captured_at": "2026-04-16T06:35:07.918782",
+    "_id": "69e0831b53bd0c8c90e86a36"
+  },
+  {
+    "user_id": "69df5820bfb48779b728e088",
+    "query_type": "COST_BREAKDOWN",
+    "time_range": {},
+    "total_cost": 761.33,
+    "currency": "USD",
+    "breakdown": [
+      {
+        "name": "Amazon Relational Database Service",
+        "cost": 247.95
+      },
+      {
+        "name": "Amazon Elastic Compute Cloud - Compute",
+        "cost": 200.38
+      },
+      {
+        "name": "Tax",
+        "cost": 116.15
+      },
+      {
+        "name": "Amazon Virtual Private Cloud",
+        "cost": 49.67
+      },
+      {
+        "name": "AWS App Runner",
+        "cost": 47.9
+      },
+      {
+        "name": "EC2 - Other",
+        "cost": 45.08
+      },
+      {
+        "name": "Amazon Elastic Load Balancing",
+        "cost": 26.93
+      },
+      {
+        "name": "CloudFront Flat-Rate Plans",
+        "cost": 15.0
+      },
+      {
+        "name": "AWS Secrets Manager",
+        "cost": 4.33
+      },
+      {
+        "name": "Amazon Simple Storage Service",
+        "cost": 3.94
+      },
+      {
+        "name": "Amazon Elastic Container Service",
+        "cost": 2.12
+      },
+      {
+        "name": "Amazon Simple Email Service",
+        "cost": 0.93
+      },
+      {
+        "name": "AWS Key Management Service",
+        "cost": 0.48
+      },
+      {
+        "name": "Amazon API Gateway",
+        "cost": 0.2
+      },
+      {
+        "name": "AWS Lambda",
+        "cost": 0.14
+      },
+      {
+        "name": "AWS Cost Explorer",
+        "cost": 0.09
+      },
+      {
+        "name": "AmazonCloudWatch",
+        "cost": 0.03
+      },
+      {
+        "name": "Amazon EC2 Container Registry (ECR)",
+        "cost": 0.0
+      },
+      {
+        "name": "Amazon Bedrock",
+        "cost": 0.0
+      },
+      {
+        "name": "Amazon CloudFront",
+        "cost": 0.0
+      }
+    ],
+    "granularity": null,
+    "points": null,
+    "metadata": {},
+    "captured_at": "2026-04-16T06:36:12.632285",
+    "_id": "69e0835c53bd0c8c90e86a3a"
+  },
+  {
+    "user_id": "69df5820bfb48779b728e088",
+    "query_type": "COST_BREAKDOWN",
+    "time_range": {},
+    "total_cost": 761.33,
+    "currency": "USD",
+    "breakdown": [
+      {
+        "name": "ap-south-1",
+        "cost": 439.25
+      },
+      {
+        "name": "NoRegion",
+        "cost": 114.87
+      },
+      {
+        "name": "us-east-1",
+        "cost": 114.74
+      },
+      {
+        "name": "ap-southeast-1",
+        "cost": 45.99
+      },
+      {
+        "name": "eu-west-1",
+        "cost": 28.91
+      },
+      {
+        "name": "global",
+        "cost": 15.0
+      },
+      {
+        "name": "us-east-2",
+        "cost": 2.59
+      },
+      {
+        "name": "us-west-2",
+        "cost": 0.0
+      },
+      {
+        "name": "ap-northeast-1",
+        "cost": 0.0
+      },
+      {
+        "name": "ap-northeast-2",
+        "cost": 0.0
+      },
+      {
+        "name": "ap-northeast-3",
+        "cost": 0.0
+      },
+      {
+        "name": "ap-southeast-2",
+        "cost": 0.0
+      },
+      {
+        "name": "ca-central-1",
+        "cost": 0.0
+      },
+      {
+        "name": "eu-central-1",
+        "cost": 0.0
+      },
+      {
+        "name": "eu-north-1",
+        "cost": 0.0
+      },
+      {
+        "name": "eu-west-2",
+        "cost": 0.0
+      },
+      {
+        "name": "eu-west-3",
+        "cost": 0.0
+      },
+      {
+        "name": "sa-east-1",
+        "cost": 0.0
+      },
+      {
+        "name": "us-west-1",
+        "cost": 0.0
+      }
+    ],
+    "granularity": null,
+    "points": null,
+    "metadata": {},
+    "captured_at": "2026-04-16T06:36:52.298182",
+    "_id": "69e0838453bd0c8c90e86a3e"
+  },
+  {
+    "user_id": "69df5820bfb48779b728e088",
+    "query_type": "COST_BREAKDOWN",
+    "time_range": {},
+    "total_cost": 761.33,
+    "currency": "USD",
+    "breakdown": [
+      {
+        "name": "Amazon Relational Database Service",
+        "cost": 247.95
+      },
+      {
+        "name": "Amazon Elastic Compute Cloud - Compute",
+        "cost": 200.38
+      },
+      {
+        "name": "Tax",
+        "cost": 116.15
+      },
+      {
+        "name": "Amazon Virtual Private Cloud",
+        "cost": 49.67
+      },
+      {
+        "name": "AWS App Runner",
+        "cost": 47.9
+      },
+      {
+        "name": "EC2 - Other",
+        "cost": 45.08
+      },
+      {
+        "name": "Amazon Elastic Load Balancing",
+        "cost": 26.93
+      },
+      {
+        "name": "CloudFront Flat-Rate Plans",
+        "cost": 15.0
+      },
+      {
+        "name": "AWS Secrets Manager",
+        "cost": 4.33
+      },
+      {
+        "name": "Amazon Simple Storage Service",
+        "cost": 3.94
+      },
+      {
+        "name": "Amazon Elastic Container Service",
+        "cost": 2.12
+      },
+      {
+        "name": "Amazon Simple Email Service",
+        "cost": 0.93
+      },
+      {
+        "name": "AWS Key Management Service",
+        "cost": 0.48
+      },
+      {
+        "name": "Amazon API Gateway",
+        "cost": 0.2
+      },
+      {
+        "name": "AWS Lambda",
+        "cost": 0.14
+      },
+      {
+        "name": "AWS Cost Explorer",
+        "cost": 0.09
+      },
+      {
+        "name": "AmazonCloudWatch",
+        "cost": 0.03
+      },
+      {
+        "name": "Amazon EC2 Container Registry (ECR)",
+        "cost": 0.0
+      },
+      {
+        "name": "Amazon Bedrock",
+        "cost": 0.0
+      },
+      {
+        "name": "Amazon CloudFront",
+        "cost": 0.0
+      }
+    ],
+    "granularity": null,
+    "points": null,
+    "metadata": {},
+    "captured_at": "2026-04-16T06:37:08.261839",
+    "_id": "69e0839453bd0c8c90e86a42"
+  },
+  {
+    "user_id": "69df5820bfb48779b728e088",
+    "query_type": "COST_BREAKDOWN",
+    "time_range": {},
+    "total_cost": 761.33,
+    "currency": "USD",
+    "breakdown": [
+      {
+        "name": "761041714756",
+        "cost": 551.46
+      },
+      {
+        "name": "058264202100",
+        "cost": 209.87
+      }
+    ],
+    "granularity": null,
+    "points": null,
+    "metadata": {},
+    "captured_at": "2026-04-16T06:37:22.818625",
+    "_id": "69e083a253bd0c8c90e86a46"
+  },
+  {
+    "user_id": "69df5820bfb48779b728e088",
+    "query_type": "COST_BREAKDOWN",
+    "time_range": {},
+    "total_cost": 761.33,
+    "currency": "USD",
+    "breakdown": [
+      {
+        "name": "Amazon Relational Database Service",
+        "cost": 247.95
+      },
+      {
+        "name": "Amazon Elastic Compute Cloud - Compute",
+        "cost": 200.38
+      },
+      {
+        "name": "Tax",
+        "cost": 116.15
+      },
+      {
+        "name": "Amazon Virtual Private Cloud",
+        "cost": 49.67
+      },
+      {
+        "name": "AWS App Runner",
+        "cost": 47.9
+      },
+      {
+        "name": "EC2 - Other",
+        "cost": 45.08
+      },
+      {
+        "name": "Amazon Elastic Load Balancing",
+        "cost": 26.93
+      },
+      {
+        "name": "CloudFront Flat-Rate Plans",
+        "cost": 15.0
+      },
+      {
+        "name": "AWS Secrets Manager",
+        "cost": 4.33
+      },
+      {
+        "name": "Amazon Simple Storage Service",
+        "cost": 3.94
+      },
+      {
+        "name": "Amazon Elastic Container Service",
+        "cost": 2.12
+      },
+      {
+        "name": "Amazon Simple Email Service",
+        "cost": 0.93
+      },
+      {
+        "name": "AWS Key Management Service",
+        "cost": 0.48
+      },
+      {
+        "name": "Amazon API Gateway",
+        "cost": 0.2
+      },
+      {
+        "name": "AWS Lambda",
+        "cost": 0.14
+      },
+      {
+        "name": "AWS Cost Explorer",
+        "cost": 0.09
+      },
+      {
+        "name": "AmazonCloudWatch",
+        "cost": 0.03
+      },
+      {
+        "name": "Amazon EC2 Container Registry (ECR)",
+        "cost": 0.0
+      },
+      {
+        "name": "Amazon Bedrock",
+        "cost": 0.0
+      },
+      {
+        "name": "Amazon CloudFront",
+        "cost": 0.0
+      }
+    ],
+    "granularity": null,
+    "points": null,
+    "metadata": {},
+    "captured_at": "2026-04-16T06:38:34.619735",
+    "_id": "69e083ea53bd0c8c90e86a4a"
+  },
+  {
+    "user_id": "69df5820bfb48779b728e088",
+    "query_type": "COST_BREAKDOWN",
+    "time_range": {},
+    "total_cost": 761.33,
+    "currency": "USD",
+    "breakdown": [
+      {
+        "name": "Amazon Relational Database Service",
+        "cost": 247.95
+      },
+      {
+        "name": "Amazon Elastic Compute Cloud - Compute",
+        "cost": 200.38
+      },
+      {
+        "name": "Tax",
+        "cost": 116.15
+      },
+      {
+        "name": "Amazon Virtual Private Cloud",
+        "cost": 49.67
+      },
+      {
+        "name": "AWS App Runner",
+        "cost": 47.9
+      },
+      {
+        "name": "EC2 - Other",
+        "cost": 45.08
+      },
+      {
+        "name": "Amazon Elastic Load Balancing",
+        "cost": 26.93
+      },
+      {
+        "name": "CloudFront Flat-Rate Plans",
+        "cost": 15.0
+      },
+      {
+        "name": "AWS Secrets Manager",
+        "cost": 4.33
+      },
+      {
+        "name": "Amazon Simple Storage Service",
+        "cost": 3.94
+      },
+      {
+        "name": "Amazon Elastic Container Service",
+        "cost": 2.12
+      },
+      {
+        "name": "Amazon Simple Email Service",
+        "cost": 0.93
+      },
+      {
+        "name": "AWS Key Management Service",
+        "cost": 0.48
+      },
+      {
+        "name": "Amazon API Gateway",
+        "cost": 0.2
+      },
+      {
+        "name": "AWS Lambda",
+        "cost": 0.14
+      },
+      {
+        "name": "AWS Cost Explorer",
+        "cost": 0.09
+      },
+      {
+        "name": "AmazonCloudWatch",
+        "cost": 0.03
+      },
+      {
+        "name": "Amazon EC2 Container Registry (ECR)",
+        "cost": 0.0
+      },
+      {
+        "name": "Amazon Bedrock",
+        "cost": 0.0
+      },
+      {
+        "name": "Amazon CloudFront",
+        "cost": 0.0
+      }
+    ],
+    "granularity": null,
+    "points": null,
+    "metadata": {},
+    "captured_at": "2026-04-16T06:39:04.826057",
+    "_id": "69e0840853bd0c8c90e86a4e"
+  },
+  {
+    "user_id": "69df5820bfb48779b728e088",
+    "query_type": "COST_BREAKDOWN",
+    "time_range": {},
+    "total_cost": 761.33,
+    "currency": "USD",
+    "breakdown": [
+      {
+        "name": "Amazon Relational Database Service",
+        "cost": 247.95
+      },
+      {
+        "name": "Amazon Elastic Compute Cloud - Compute",
+        "cost": 200.38
+      },
+      {
+        "name": "Tax",
+        "cost": 116.15
+      },
+      {
+        "name": "Amazon Virtual Private Cloud",
+        "cost": 49.67
+      },
+      {
+        "name": "AWS App Runner",
+        "cost": 47.9
+      },
+      {
+        "name": "EC2 - Other",
+        "cost": 45.08
+      },
+      {
+        "name": "Amazon Elastic Load Balancing",
+        "cost": 26.93
+      },
+      {
+        "name": "CloudFront Flat-Rate Plans",
+        "cost": 15.0
+      },
+      {
+        "name": "AWS Secrets Manager",
+        "cost": 4.33
+      },
+      {
+        "name": "Amazon Simple Storage Service",
+        "cost": 3.94
+      },
+      {
+        "name": "Amazon Elastic Container Service",
+        "cost": 2.12
+      },
+      {
+        "name": "Amazon Simple Email Service",
+        "cost": 0.93
+      },
+      {
+        "name": "AWS Key Management Service",
+        "cost": 0.48
+      },
+      {
+        "name": "Amazon API Gateway",
+        "cost": 0.2
+      },
+      {
+        "name": "AWS Lambda",
+        "cost": 0.14
+      },
+      {
+        "name": "AWS Cost Explorer",
+        "cost": 0.09
+      },
+      {
+        "name": "AmazonCloudWatch",
+        "cost": 0.03
+      },
+      {
+        "name": "Amazon EC2 Container Registry (ECR)",
+        "cost": 0.0
+      },
+      {
+        "name": "Amazon Bedrock",
+        "cost": 0.0
+      },
+      {
+        "name": "Amazon CloudFront",
+        "cost": 0.0
+      }
+    ],
+    "granularity": null,
+    "points": null,
+    "metadata": {},
+    "captured_at": "2026-04-16T06:39:18.173192",
+    "_id": "69e0841653bd0c8c90e86a53"
+  },
+  {
+    "user_id": "69df5820bfb48779b728e088",
+    "query_type": "COST_BREAKDOWN",
+    "time_range": {},
+    "total_cost": 761.33,
+    "currency": "USD",
+    "breakdown": [
+      {
+        "name": "Amazon Relational Database Service",
+        "cost": 247.95
+      },
+      {
+        "name": "Amazon Elastic Compute Cloud - Compute",
+        "cost": 200.38
+      },
+      {
+        "name": "Tax",
+        "cost": 116.15
+      },
+      {
+        "name": "Amazon Virtual Private Cloud",
+        "cost": 49.67
+      },
+      {
+        "name": "AWS App Runner",
+        "cost": 47.9
+      },
+      {
+        "name": "EC2 - Other",
+        "cost": 45.08
+      },
+      {
+        "name": "Amazon Elastic Load Balancing",
+        "cost": 26.93
+      },
+      {
+        "name": "CloudFront Flat-Rate Plans",
+        "cost": 15.0
+      },
+      {
+        "name": "AWS Secrets Manager",
+        "cost": 4.33
+      },
+      {
+        "name": "Amazon Simple Storage Service",
+        "cost": 3.94
+      },
+      {
+        "name": "Amazon Elastic Container Service",
+        "cost": 2.12
+      },
+      {
+        "name": "Amazon Simple Email Service",
+        "cost": 0.93
+      },
+      {
+        "name": "AWS Key Management Service",
+        "cost": 0.48
+      },
+      {
+        "name": "Amazon API Gateway",
+        "cost": 0.2
+      },
+      {
+        "name": "AWS Lambda",
+        "cost": 0.14
+      },
+      {
+        "name": "AWS Cost Explorer",
+        "cost": 0.09
+      },
+      {
+        "name": "AmazonCloudWatch",
+        "cost": 0.03
+      },
+      {
+        "name": "Amazon EC2 Container Registry (ECR)",
+        "cost": 0.0
+      },
+      {
+        "name": "Amazon Bedrock",
+        "cost": 0.0
+      },
+      {
+        "name": "Amazon CloudFront",
+        "cost": 0.0
+      }
+    ],
+    "granularity": null,
+    "points": null,
+    "metadata": {},
+    "captured_at": "2026-04-16T06:39:37.278279",
+    "_id": "69e0842953bd0c8c90e86a58"
+  },
+  {
+    "user_id": "69df5820bfb48779b728e088",
+    "query_type": "COST_TIME_SERIES",
+    "time_range": {},
+    "total_cost": 1293.7,
+    "currency": "USD",
+    "breakdown": null,
+    "granularity": "DAILY",
+    "points": [
+      {
+        "date": "2026-05-01",
+        "cost": 264.91
+      },
+      {
+        "date": "2026-05-02",
+        "cost": 45.95
+      },
+      {
+        "date": "2026-05-03",
+        "cost": 46.04
+      },
+      {
+        "date": "2026-05-04",
+        "cost": 49.6
+      },
+      {
+        "date": "2026-05-05",
+        "cost": 44.99
+      },
+      {
+        "date": "2026-05-06",
+        "cost": 44.4
+      },
+      {
+        "date": "2026-05-07",
+        "cost": 44.18
+      },
+      {
+        "date": "2026-05-08",
+        "cost": 44.0
+      },
+      {
+        "date": "2026-05-09",
+        "cost": 43.36
+      },
+      {
+        "date": "2026-05-10",
+        "cost": 43.44
+      },
+      {
+        "date": "2026-05-11",
+        "cost": 43.92
+      },
+      {
+        "date": "2026-05-12",
+        "cost": 43.7
+      },
+      {
+        "date": "2026-05-13",
+        "cost": 43.9
+      },
+      {
+        "date": "2026-05-14",
+        "cost": 45.96
+      },
+      {
+        "date": "2026-05-15",
+        "cost": 44.52
+      },
+      {
+        "date": "2026-05-16",
+        "cost": 43.89
+      },
+      {
+        "date": "2026-05-17",
+        "cost": 43.65
+      },
+      {
+        "date": "2026-05-18",
+        "cost": 44.15
+      },
+      {
+        "date": "2026-05-19",
+        "cost": 44.3
+      },
+      {
+        "date": "2026-05-20",
+        "cost": 44.35
+      },
+      {
+        "date": "2026-05-21",
+        "cost": 44.05
+      },
+      {
+        "date": "2026-05-22",
+        "cost": 43.78
+      },
+      {
+        "date": "2026-05-23",
+        "cost": 43.55
+      },
+      {
+        "date": "2026-05-24",
+        "cost": 43.5
+      },
+      {
+        "date": "2026-05-25",
+        "cost": 5.61
+      }
+    ],
+    "metadata": {},
+    "captured_at": "2026-05-25T16:13:37.941762",
+    "_id": "6a147531fef50ca927315d18"
+  },
+  {
+    "user_id": "69df5820bfb48779b728e088",
+    "query_type": "COST_TIME_SERIES",
+    "time_range": {},
+    "total_cost": 0.0,
+    "currency": "USD",
+    "breakdown": null,
+    "granularity": "MONTHLY",
+    "points": [],
+    "metadata": {},
+    "captured_at": "2026-05-25T16:35:37.075206",
+    "_id": "6a147a594e5570a035b8cdf6"
+  },
+  {
+    "user_id": "69df5820bfb48779b728e088",
+    "query_type": "COST_TIME_SERIES",
+    "time_range": {},
+    "total_cost": 1391.38,
+    "currency": "USD",
+    "breakdown": null,
+    "granularity": "DAILY",
+    "points": [
+      {
+        "date": "2026-05-01",
+        "cost": 279.82
+      },
+      {
+        "date": "2026-05-02",
+        "cost": 45.95
+      },
+      {
+        "date": "2026-05-03",
+        "cost": 46.04
+      },
+      {
+        "date": "2026-05-04",
+        "cost": 49.6
+      },
+      {
+        "date": "2026-05-05",
+        "cost": 44.99
+      },
+      {
+        "date": "2026-05-06",
+        "cost": 44.4
+      },
+      {
+        "date": "2026-05-07",
+        "cost": 44.18
+      },
+      {
+        "date": "2026-05-08",
+        "cost": 44.0
+      },
+      {
+        "date": "2026-05-09",
+        "cost": 43.39
+      },
+      {
+        "date": "2026-05-10",
+        "cost": 43.44
+      },
+      {
+        "date": "2026-05-11",
+        "cost": 43.92
+      },
+      {
+        "date": "2026-05-12",
+        "cost": 43.7
+      },
+      {
+        "date": "2026-05-13",
+        "cost": 43.9
+      },
+      {
+        "date": "2026-05-14",
+        "cost": 45.96
+      },
+      {
+        "date": "2026-05-15",
+        "cost": 44.52
+      },
+      {
+        "date": "2026-05-16",
+        "cost": 43.89
+      },
+      {
+        "date": "2026-05-17",
+        "cost": 43.65
+      },
+      {
+        "date": "2026-05-18",
+        "cost": 44.2
+      },
+      {
+        "date": "2026-05-19",
+        "cost": 44.39
+      },
+      {
+        "date": "2026-05-20",
+        "cost": 44.35
+      },
+      {
+        "date": "2026-05-21",
+        "cost": 44.05
+      },
+      {
+        "date": "2026-05-22",
+        "cost": 43.78
+      },
+      {
+        "date": "2026-05-23",
+        "cost": 43.55
+      },
+      {
+        "date": "2026-05-24",
+        "cost": 43.51
+      },
+      {
+        "date": "2026-05-25",
+        "cost": 44.48
+      },
+      {
+        "date": "2026-05-26",
+        "cost": 43.72
+      },
+      {
+        "date": "2026-05-27",
+        "cost": 0.0
+      }
+    ],
+    "metadata": {},
+    "captured_at": "2026-05-27T11:17:12.888978",
+    "_id": "6a16d2b8fc1124a89f8f2010"
+  }
+]

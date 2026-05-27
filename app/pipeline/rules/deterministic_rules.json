@@ -1,0 +1,129 @@
+[
+    {
+        "patterns": [
+            "today",
+            "today's cost",
+            "cost today",
+            "todays cost"
+        ],
+        "tool": "aws_get_today_cost",
+        "confidence": 1.0,
+        "description": "Current day cost"
+    },
+    {
+        "patterns": [
+            "yesterday",
+            "yesterday's cost",
+            "cost yesterday",
+            "yesterdays cost"
+        ],
+        "tool": "aws_get_yesterday_cost",
+        "confidence": 1.0,
+        "description": "Previous day cost"
+    },
+    {
+        "patterns": [
+            "current month",
+            "this month",
+            "month to date",
+            "mtd",
+            "this month cost",
+            "current month cost"
+        ],
+        "tool": "aws_get_current_month_cost",
+        "confidence": 1.0,
+        "description": "Month-to-date cost"
+    },
+    {
+        "patterns": [
+            "last month",
+            "previous month",
+            "last month cost",
+            "previous month cost"
+        ],
+        "tool": "aws_get_last_month_cost",
+        "confidence": 1.0,
+        "description": "Previous complete month cost"
+    },
+    {
+        "patterns": [
+            "account id",
+            "what is my account",
+            "show account",
+            "my account id",
+            "get account id"
+        ],
+        "tool": "aws_get_account_id",
+        "confidence": 1.0,
+        "description": "AWS account identifier"
+    },
+    {
+        "patterns": [
+            "enabled regions",
+            "available regions",
+            "list regions",
+            "what regions",
+            "show regions"
+        ],
+        "tool": "aws_get_enabled_regions",
+        "confidence": 1.0,
+        "description": "Enabled AWS regions"
+    },
+    {
+        "patterns": [
+            "list s3 buckets",
+            "show buckets",
+            "s3 buckets",
+            "all buckets"
+        ],
+        "tool": "aws_list_s3_buckets",
+        "confidence": 1.0,
+        "description": "All S3 buckets"
+    },
+    {
+        "patterns": [
+            "list ec2 instances",
+            "show instances",
+            "ec2 instances",
+            "all instances",
+            "running instances"
+        ],
+        "tool": "aws_list_ec2_instances",
+        "confidence": 1.0,
+        "description": "All EC2 instances"
+    },
+    {
+        "patterns": [
+            "list rds",
+            "show databases",
+            "rds instances",
+            "database instances",
+            "list databases"
+        ],
+        "tool": "aws_list_rds_instances",
+        "confidence": 1.0,
+        "description": "All RDS database instances"
+    },
+    {
+        "patterns": [
+            "list lambda",
+            "show functions",
+            "lambda functions",
+            "all functions"
+        ],
+        "tool": "aws_list_lambda_functions",
+        "confidence": 1.0,
+        "description": "All Lambda functions"
+    },
+    {
+        "patterns": [
+            "list log groups",
+            "show log groups",
+            "cloudwatch log groups",
+            "log groups"
+        ],
+        "tool": "aws_list_cloudwatch_log_groups",
+        "confidence": 1.0,
+        "description": "CloudWatch log groups"
+    }
+]

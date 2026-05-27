@@ -1,0 +1,2116 @@
+[
+    {
+        "query": "what did we spend today",
+        "expected_tool": "aws_get_today_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "today",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "today's AWS bill",
+        "expected_tool": "aws_get_today_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "today",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show me costs for today only",
+        "expected_tool": "aws_get_today_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "today",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "spending so far today",
+        "expected_tool": "aws_get_today_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "today",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "todays cost",
+        "expected_tool": "aws_get_today_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "today",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": "typo",
+        "confidence_level": "medium"
+    },
+    {
+        "query": "yesterday's AWS spend",
+        "expected_tool": "aws_get_yesterday_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "yesterday",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "how much did we spend yesterday",
+        "expected_tool": "aws_get_yesterday_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "yesterday",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "cost for day before today",
+        "expected_tool": "aws_get_yesterday_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "yesterday",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "yesterdays bill",
+        "expected_tool": "aws_get_yesterday_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "yesterday",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": "typo",
+        "confidence_level": "medium"
+    },
+    {
+        "query": "spend from yesterday",
+        "expected_tool": "aws_get_yesterday_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "yesterday",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "current month spending",
+        "expected_tool": "aws_get_current_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "current_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "how much have we spent this month so far",
+        "expected_tool": "aws_get_current_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "current_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "month to date cost",
+        "expected_tool": "aws_get_current_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "month_to_date",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "spending for this billing period",
+        "expected_tool": "aws_get_current_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "current_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "costs this mnth",
+        "expected_tool": "aws_get_current_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "current_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": "typo",
+        "confidence_level": "medium"
+    },
+    {
+        "query": "last month AWS bill",
+        "expected_tool": "aws_get_last_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "spending for previous month",
+        "expected_tool": "aws_get_last_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "cost from 30 days ago to end of last month",
+        "expected_tool": "aws_get_last_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "last mnth spend",
+        "expected_tool": "aws_get_last_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": "typo",
+        "confidence_level": "medium"
+    },
+    {
+        "query": "what was our bill for the month before this one",
+        "expected_tool": "aws_get_last_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "breakdown of costs by AWS service",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "medium"
+    },
+    {
+        "query": "show me EC2 vs S3 spending last month",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "which services cost the most last 30 days",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_30_days",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "spending by service for current month",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "current_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "cost distribution across AWS services last quarter",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_3_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "Lambda costs separately",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": "Lambda",
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "medium"
+    },
+    {
+        "query": "how much did EC2 cost us last month",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": "EC2",
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "S3 spending breakdown",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": "S3",
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "medium"
+    },
+    {
+        "query": "RDS costs for last 6 months",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_6_months",
+            "service": "RDS",
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "spend by service in INR",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": "INR",
+            "granularity": null
+        },
+        "modifier": "currency",
+        "confidence_level": "medium"
+    },
+    {
+        "query": "costs by region",
+        "expected_tool": "aws_get_cost_by_region",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "medium"
+    },
+    {
+        "query": "which region spent the most last month",
+        "expected_tool": "aws_get_cost_by_region",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "us-east-1 vs ap-south-1 costs last quarter",
+        "expected_tool": "aws_get_cost_by_region",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_3_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "spending in eu-west-1 only",
+        "expected_tool": "aws_get_cost_by_region",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": "eu-west-1",
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "regional cost distribution for current month",
+        "expected_tool": "aws_get_cost_by_region",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "current_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "cost trend over last 6 months",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_6_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show me spending pattern for past year",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_year",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "daily cost trend last 30 days",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_30_days",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "DAILY"
+        },
+        "modifier": "granularity",
+        "confidence_level": "high"
+    },
+    {
+        "query": "how has our spending changed over time",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_6_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "medium"
+    },
+    {
+        "query": "monthly view of costs for last year",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_year",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": "granularity",
+        "confidence_level": "high"
+    },
+    {
+        "query": "last 3 months EC2 cost trend daily",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_3_months",
+            "service": "EC2",
+            "region": null,
+            "currency": null,
+            "granularity": "DAILY"
+        },
+        "modifier": "service + granularity",
+        "confidence_level": "high"
+    },
+    {
+        "query": "spending trajectory since January",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "year_to_date",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "medium"
+    },
+    {
+        "query": "cost trend for ap-south-1 region last quarter",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_3_months",
+            "service": null,
+            "region": "ap-south-1",
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": "region",
+        "confidence_level": "high"
+    },
+    {
+        "query": "weekly spending pattern",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_30_days",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "DAILY"
+        },
+        "modifier": null,
+        "confidence_level": "medium"
+    },
+    {
+        "query": "compare this month vs last month spending",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_2_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "forecast next month spend",
+        "expected_tool": "aws_get_cost_forecast",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "next_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "predict AWS bill for next 3 months",
+        "expected_tool": "aws_get_cost_forecast",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "next_3_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "budget projection for Q3",
+        "expected_tool": "aws_get_cost_forecast",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "next_3_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "medium"
+    },
+    {
+        "query": "estimated spend for rest of year",
+        "expected_tool": "aws_get_cost_forecast",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "year_to_date_remaining",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "medium"
+    },
+    {
+        "query": "forecast in INR",
+        "expected_tool": "aws_get_cost_forecast",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "next_month",
+            "service": null,
+            "region": null,
+            "currency": "INR",
+            "granularity": null
+        },
+        "modifier": "currency",
+        "confidence_level": "medium"
+    },
+    {
+        "query": "who am i",
+        "expected_tool": "aws_get_caller_identity",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show my AWS identity",
+        "expected_tool": "aws_get_caller_identity",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what account am i logged into",
+        "expected_tool": "aws_get_caller_identity",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "my user arn",
+        "expected_tool": "aws_get_caller_identity",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show account alias",
+        "expected_tool": "aws_get_account_alias",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what is this account called",
+        "expected_tool": "aws_get_account_alias",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "account name",
+        "expected_tool": "aws_get_account_alias",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "list enabled regions",
+        "expected_tool": "aws_get_enabled_regions",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "which AWS regions can we use",
+        "expected_tool": "aws_get_enabled_regions",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show available regions",
+        "expected_tool": "aws_get_enabled_regions",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "is ap-south-1 enabled",
+        "expected_tool": "aws_get_enabled_regions",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "list EC2 instances",
+        "expected_tool": "aws_list_ec2_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show me all running EC2 servers",
+        "expected_tool": "aws_list_ec2_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "EC2 inventory",
+        "expected_tool": "aws_list_ec2_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "list my virtual machines",
+        "expected_tool": "aws_list_ec2_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show EC2 instances in us-east-1",
+        "expected_tool": "aws_list_ec2_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": "us-east-1",
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": "region",
+        "confidence_level": "high"
+    },
+    {
+        "query": "list S3 buckets",
+        "expected_tool": "aws_list_s3_buckets",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show all my S3 storage buckets",
+        "expected_tool": "aws_list_s3_buckets",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "S3 inventory",
+        "expected_tool": "aws_list_s3_buckets",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what S3 buckets do we have",
+        "expected_tool": "aws_list_s3_buckets",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "list lambda functions",
+        "expected_tool": "aws_list_lambda_functions",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show all serverless functions",
+        "expected_tool": "aws_list_lambda_functions",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "Lambda inventory",
+        "expected_tool": "aws_list_lambda_functions",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "list all AWS Lambda",
+        "expected_tool": "aws_list_lambda_functions",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show RDS instances",
+        "expected_tool": "aws_list_rds_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "list databases in AWS",
+        "expected_tool": "aws_list_rds_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "RDS inventory",
+        "expected_tool": "aws_list_rds_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show me all database instances",
+        "expected_tool": "aws_list_rds_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "last month cost in INR",
+        "expected_tool": "aws_get_last_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": "INR",
+            "granularity": null
+        },
+        "modifier": "currency",
+        "confidence_level": "high"
+    },
+    {
+        "query": "today in EUR",
+        "expected_tool": "aws_get_today_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "today",
+            "service": null,
+            "region": null,
+            "currency": "EUR",
+            "granularity": null
+        },
+        "modifier": "currency",
+        "confidence_level": "high"
+    },
+    {
+        "query": "monthly view",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": "granularity",
+        "confidence_level": "medium"
+    },
+    {
+        "query": "daily breakdown",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_7_days",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "DAILY"
+        },
+        "modifier": "granularity",
+        "confidence_level": "medium"
+    },
+    {
+        "query": "only EC2",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": "EC2",
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": "service",
+        "confidence_level": "medium"
+    },
+    {
+        "query": "compare with last month",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_2_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": "comparison",
+        "confidence_level": "medium"
+    },
+    {
+        "query": "show numbers",
+        "expected_tool": "aws_get_current_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "how much",
+        "expected_tool": "aws_get_current_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "give me data",
+        "expected_tool": "aws_get_current_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "it",
+        "expected_tool": "aws_get_current_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "trend",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_6_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "medium"
+    },
+    {
+        "query": "breakdown",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "medium"
+    },
+    {
+        "query": "last 6 months cost in INR monthly view",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_6_months",
+            "service": null,
+            "region": null,
+            "currency": "INR",
+            "granularity": "MONTHLY"
+        },
+        "modifier": "currency + granularity",
+        "confidence_level": "high"
+    },
+    {
+        "query": "EC2 cost last quarter in INR monthly",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_3_months",
+            "service": "EC2",
+            "region": null,
+            "currency": "INR",
+            "granularity": "MONTHLY"
+        },
+        "modifier": "service + currency + granularity",
+        "confidence_level": "high"
+    },
+    {
+        "query": "compare last month and previous month",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_2_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": "comparison",
+        "confidence_level": "high"
+    },
+    {
+        "query": "why is my bill high",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_2_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "medium"
+    },
+    {
+        "query": "which region costs most",
+        "expected_tool": "aws_get_cost_by_region",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "spndng last week",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_7_days",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "DAILY"
+        },
+        "modifier": "typo",
+        "confidence_level": "medium"
+    },
+    {
+        "query": "costs for EC2 and S3 last month",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show me S3 and RDS spending",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "daily EC2 costs last 14 days",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_14_days",
+            "service": "EC2",
+            "region": null,
+            "currency": null,
+            "granularity": "DAILY"
+        },
+        "modifier": "service + granularity",
+        "confidence_level": "high"
+    },
+    {
+        "query": "forecast for next quarter in USD",
+        "expected_tool": "aws_get_cost_forecast",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "next_3_months",
+            "service": null,
+            "region": null,
+            "currency": "USD",
+            "granularity": "MONTHLY"
+        },
+        "modifier": "currency",
+        "confidence_level": "high"
+    },
+    {
+        "query": "what did we spend on data transfer last month",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": "DataTransfer",
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "EBS costs current month",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "current_month",
+            "service": "EBS",
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "list EC2 in ap-south-1",
+        "expected_tool": "aws_list_ec2_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": "ap-south-1",
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": "region",
+        "confidence_level": "high"
+    },
+    {
+        "query": "S3 buckets in us-west-2",
+        "expected_tool": "aws_list_s3_buckets",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": "us-west-2",
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": "region",
+        "confidence_level": "high"
+    },
+    {
+        "query": "Lambda functions eu-central-1",
+        "expected_tool": "aws_list_lambda_functions",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": "eu-central-1",
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": "region",
+        "confidence_level": "high"
+    },
+    {
+        "query": "RDS in ap-northeast-1",
+        "expected_tool": "aws_list_rds_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": "ap-northeast-1",
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": "region",
+        "confidence_level": "high"
+    },
+    {
+        "query": "cost for last 45 days daily",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_45_days",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "DAILY"
+        },
+        "modifier": "granularity",
+        "confidence_level": "high"
+    },
+    {
+        "query": "spending last 90 days monthly",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_3_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": "granularity",
+        "confidence_level": "high"
+    },
+    {
+        "query": "year to date costs",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "year_to_date",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "costs since beginning of year",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "year_to_date",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "last week spend",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_7_days",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "DAILY"
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "spending last 14 days",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_14_days",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "DAILY"
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "costs for last quarter",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_3_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "previous quarter spending",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_3_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show me my identity details",
+        "expected_tool": "aws_get_caller_identity",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what's my account ID",
+        "expected_tool": "aws_get_caller_identity",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "display account alias",
+        "expected_tool": "aws_get_account_alias",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what's this account's friendly name",
+        "expected_tool": "aws_get_account_alias",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "which regions are active",
+        "expected_tool": "aws_get_enabled_regions",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show me all regions we can deploy to",
+        "expected_tool": "aws_get_enabled_regions",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "list my compute instances",
+        "expected_tool": "aws_list_ec2_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show object storage buckets",
+        "expected_tool": "aws_list_s3_buckets",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "list serverless compute",
+        "expected_tool": "aws_list_lambda_functions",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show relational databases",
+        "expected_tool": "aws_list_rds_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "cost in GBP",
+        "expected_tool": "aws_get_current_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "current_month",
+            "service": null,
+            "region": null,
+            "currency": "GBP",
+            "granularity": null
+        },
+        "modifier": "currency",
+        "confidence_level": "medium"
+    },
+    {
+        "query": "spend in JPY last month",
+        "expected_tool": "aws_get_last_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": "JPY",
+            "granularity": null
+        },
+        "modifier": "currency",
+        "confidence_level": "high"
+    },
+    {
+        "query": "monthly costs for last 6 months",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_6_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": "granularity",
+        "confidence_level": "high"
+    },
+    {
+        "query": "daily costs for past month",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_30_days",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "DAILY"
+        },
+        "modifier": "granularity",
+        "confidence_level": "high"
+    },
+    {
+        "query": "show EC2 cost trend",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_6_months",
+            "service": "EC2",
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": "service",
+        "confidence_level": "high"
+    },
+    {
+        "query": "S3 spending trend last year",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_year",
+            "service": "S3",
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": "service",
+        "confidence_level": "high"
+    },
+    {
+        "query": "forecast EC2 costs next quarter",
+        "expected_tool": "aws_get_cost_forecast",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "next_3_months",
+            "service": "EC2",
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": "service",
+        "confidence_level": "high"
+    },
+    {
+        "query": "predict S3 spend next month",
+        "expected_tool": "aws_get_cost_forecast",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "next_month",
+            "service": "S3",
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": "service",
+        "confidence_level": "high"
+    },
+    {
+        "query": "costs by service for ap-south-1 last month",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": "ap-south-1",
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": "region",
+        "confidence_level": "high"
+    },
+    {
+        "query": "regional breakdown for EC2 last quarter",
+        "expected_tool": "aws_get_cost_by_region",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_3_months",
+            "service": "EC2",
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": "service",
+        "confidence_level": "high"
+    },
+    {
+        "query": "list EC2 instances with type",
+        "expected_tool": "aws_list_ec2_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show S3 buckets with size",
+        "expected_tool": "aws_list_s3_buckets",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "Lambda functions with runtime",
+        "expected_tool": "aws_list_lambda_functions",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "RDS instances with engine type",
+        "expected_tool": "aws_list_rds_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what services cost money",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "which services are we using most",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "top 5 expensive services last month",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "most costly region last month",
+        "expected_tool": "aws_get_cost_by_region",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "region with highest spend",
+        "expected_tool": "aws_get_cost_by_region",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "costs in us-east-1 only",
+        "expected_tool": "aws_get_cost_by_region",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": "us-east-1",
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": "region",
+        "confidence_level": "high"
+    },
+    {
+        "query": "spending in eu-west-1 last quarter",
+        "expected_tool": "aws_get_cost_by_region",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_3_months",
+            "service": null,
+            "region": "eu-west-1",
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": "region",
+        "confidence_level": "high"
+    },
+    {
+        "query": "ap-south-1 costs current month",
+        "expected_tool": "aws_get_cost_by_region",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "current_month",
+            "service": null,
+            "region": "ap-south-1",
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": "region",
+        "confidence_level": "high"
+    },
+    {
+        "query": "show me forecast",
+        "expected_tool": "aws_get_cost_forecast",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "next_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "medium"
+    },
+    {
+        "query": "what will we spend next month",
+        "expected_tool": "aws_get_cost_forecast",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "next_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "predict next month bill",
+        "expected_tool": "aws_get_cost_forecast",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "next_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "estimated costs for next 30 days",
+        "expected_tool": "aws_get_cost_forecast",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "next_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "budget for next quarter",
+        "expected_tool": "aws_get_cost_forecast",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "next_3_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "modifier": null,
+        "confidence_level": "medium"
+    }
+]

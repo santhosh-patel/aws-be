@@ -1,0 +1,79 @@
+[
+  {
+    "query": "lambda forecast instances",
+    "expected": null,
+    "predicted": "aws_get_cost_forecast",
+    "intent": "COST_FORECAST",
+    "stage": "tool_restriction_direct"
+  },
+  {
+    "query": "billing lambda functions list",
+    "expected": null,
+    "predicted": "aws_list_lambda_functions",
+    "intent": "RESOURCE_LAMBDA",
+    "stage": "tool_restriction_direct"
+  },
+  {
+    "query": "regional forecast bucket usage",
+    "expected": null,
+    "predicted": "aws_get_cost_forecast",
+    "intent": "COST_FORECAST",
+    "stage": "tool_restriction_direct"
+  },
+  {
+    "query": "list all my bills",
+    "expected": "aws_get_current_month_cost",
+    "predicted": null,
+    "intent": "CLARIFICATION_REQUIRED",
+    "stage": "intent_classifier"
+  },
+  {
+    "query": "aws s3 cost prediction by region",
+    "expected": "aws_get_cost_forecast",
+    "predicted": "aws_get_cost_by_region",
+    "intent": "COST_BY_REGION",
+    "stage": "tool_restriction_direct"
+  },
+  {
+    "query": "compare last month to next month",
+    "expected": "aws_get_cost_forecast",
+    "predicted": "aws_get_last_month_cost",
+    "intent": "COST_LAST_MONTH",
+    "stage": "tool_restriction_direct"
+  },
+  {
+    "query": "what is the cost of my unknown_service",
+    "expected": "aws_get_cost_by_service",
+    "predicted": null,
+    "intent": "CLARIFICATION_REQUIRED",
+    "stage": "intent_classifier"
+  },
+  {
+    "query": "forecast weather",
+    "expected": null,
+    "predicted": "aws_get_cost_forecast",
+    "intent": "COST_FORECAST",
+    "stage": "tool_restriction_direct"
+  },
+  {
+    "query": "cost of running nothing",
+    "expected": "aws_get_current_month_cost",
+    "predicted": null,
+    "intent": "CLARIFICATION_REQUIRED",
+    "stage": "intent_classifier"
+  },
+  {
+    "query": "show me the money",
+    "expected": "aws_get_current_month_cost",
+    "predicted": null,
+    "intent": "CLARIFICATION_REQUIRED",
+    "stage": "intent_classifier"
+  },
+  {
+    "query": "usage report",
+    "expected": "aws_get_current_month_cost",
+    "predicted": null,
+    "intent": "CONVERSATIONAL",
+    "stage": "conversational_filter"
+  }
+]

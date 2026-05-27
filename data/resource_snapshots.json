@@ -1,0 +1,48 @@
+[
+  {
+    "user_id": "69df5820bfb48779b728e088",
+    "resource_type": "Identity",
+    "resource_count": 1,
+    "resources": [
+      {
+        "id": "058264202100",
+        "type": "Identity",
+        "name": "AIDAQ3EGRFN2BOP4SVH5Y",
+        "region": "arn:aws:iam::058264202100:user/santosh",
+        "state": "active",
+        "metadata": {
+          "account_id": "058264202100",
+          "user_id": "AIDAQ3EGRFN2BOP4SVH5Y",
+          "arn": "arn:aws:iam::058264202100:user/santosh"
+        }
+      }
+    ],
+    "region": "us-east-1",
+    "metadata": {},
+    "captured_at": "2026-05-25T16:39:17.173028",
+    "_id": "6a147b354e5570a035b8cdfa"
+  },
+  {
+    "user_id": "69df5820bfb48779b728e088",
+    "resource_type": "Identity",
+    "resource_count": 1,
+    "resources": [
+      {
+        "id": "058264202100",
+        "type": "Identity",
+        "name": "AIDAQ3EGRFN2BOP4SVH5Y",
+        "region": "arn:aws:iam::058264202100:user/santosh",
+        "state": "active",
+        "metadata": {
+          "account_id": "058264202100",
+          "user_id": "AIDAQ3EGRFN2BOP4SVH5Y",
+          "arn": "arn:aws:iam::058264202100:user/santosh"
+        }
+      }
+    ],
+    "region": "us-east-1",
+    "metadata": {},
+    "captured_at": "2026-05-25T16:41:51.494688",
+    "_id": "6a147bcf4e5570a035b8cdfd"
+  }
+]

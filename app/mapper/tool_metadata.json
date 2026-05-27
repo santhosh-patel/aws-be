@@ -1,0 +1,395 @@
+[
+    {
+        "tool_name": "aws_get_cost_trend",
+        "domain": "cost",
+        "description": "Returns cost over time for a specified date range with MONTHLY or DAILY granularity. Shows spending patterns and trends across time periods.",
+        "example_queries": [
+            "last 6 months cost",
+            "show billing trend",
+            "monthly spend last year",
+            "cost from June till now",
+            "spending pattern last quarter",
+            "show me cost over time",
+            "billing data from January to March"
+        ],
+        "required_parameters": [
+            "start_date",
+            "end_date"
+        ],
+        "optional_parameters": [
+            "granularity"
+        ],
+        "service_tags": [
+            "cost-explorer",
+            "billing"
+        ],
+        "synonyms": [
+            "billing",
+            "spend",
+            "charges",
+            "expenses",
+            "trend",
+            "pattern"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "tool_name": "aws_get_current_month_cost",
+        "domain": "cost",
+        "description": "Returns total cost for the current month to date. Quick summary of month-to-date spending.",
+        "example_queries": [
+            "current month cost",
+            "this month spending",
+            "cost so far this month",
+            "how much have I spent this month",
+            "month to date cost",
+            "MTD spend"
+        ],
+        "required_parameters": [],
+        "optional_parameters": [],
+        "service_tags": [
+            "cost-explorer",
+            "billing"
+        ],
+        "synonyms": [
+            "billing",
+            "spend",
+            "charges",
+            "current",
+            "this month",
+            "MTD"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "tool_name": "aws_get_last_month_cost",
+        "domain": "cost",
+        "description": "Returns total cost for the previous complete month. Shows full month spending for the last completed billing period.",
+        "example_queries": [
+            "last month cost",
+            "previous month spending",
+            "cost for last month",
+            "how much did I spend last month",
+            "billing for previous month"
+        ],
+        "required_parameters": [],
+        "optional_parameters": [],
+        "service_tags": [
+            "cost-explorer",
+            "billing"
+        ],
+        "synonyms": [
+            "billing",
+            "spend",
+            "charges",
+            "previous",
+            "last month"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "tool_name": "aws_get_cost_by_service",
+        "domain": "cost",
+        "description": "Returns cost breakdown grouped by AWS service. Shows which services are consuming the most budget.",
+        "example_queries": [
+            "cost by service",
+            "breakdown by service",
+            "which service costs the most",
+            "service-wise spending",
+            "show cost per service",
+            "EC2 vs S3 cost"
+        ],
+        "required_parameters": [
+            "start_date",
+            "end_date"
+        ],
+        "optional_parameters": [],
+        "service_tags": [
+            "cost-explorer",
+            "billing"
+        ],
+        "synonyms": [
+            "breakdown",
+            "by service",
+            "per service",
+            "service cost"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "tool_name": "aws_get_cost_by_region",
+        "domain": "cost",
+        "description": "Returns cost breakdown grouped by AWS region. Shows geographic distribution of spending.",
+        "example_queries": [
+            "cost by region",
+            "regional spending",
+            "which region costs most",
+            "breakdown by region",
+            "us-east-1 vs us-west-2 cost",
+            "cost per region"
+        ],
+        "required_parameters": [
+            "start_date",
+            "end_date"
+        ],
+        "optional_parameters": [],
+        "service_tags": [
+            "cost-explorer",
+            "billing"
+        ],
+        "synonyms": [
+            "regional",
+            "by region",
+            "per region",
+            "geographic"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "tool_name": "aws_get_cost_by_linked_account",
+        "domain": "cost",
+        "description": "Returns cost breakdown grouped by linked AWS accounts (for Organizations). Shows spending per member account.",
+        "example_queries": [
+            "cost by account",
+            "per account spending",
+            "which account costs most",
+            "breakdown by linked account",
+            "account-wise cost",
+            "cost for each account"
+        ],
+        "required_parameters": [
+            "start_date",
+            "end_date"
+        ],
+        "optional_parameters": [],
+        "service_tags": [
+            "cost-explorer",
+            "billing",
+            "organizations"
+        ],
+        "synonyms": [
+            "by account",
+            "per account",
+            "linked account",
+            "member account"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "tool_name": "aws_list_ec2_instances",
+        "domain": "inventory",
+        "description": "Lists all EC2 instances in the account with their state, type, and region. Shows running and stopped virtual machines.",
+        "example_queries": [
+            "list ec2 instances",
+            "show all instances",
+            "what ec2 instances do I have",
+            "show running instances",
+            "list virtual machines",
+            "show compute resources"
+        ],
+        "required_parameters": [],
+        "optional_parameters": [
+            "region",
+            "state"
+        ],
+        "service_tags": [
+            "ec2",
+            "compute"
+        ],
+        "synonyms": [
+            "instances",
+            "virtual machines",
+            "VMs",
+            "servers",
+            "compute"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "tool_name": "aws_list_s3_buckets",
+        "domain": "inventory",
+        "description": "Lists all S3 buckets in the account with creation dates. Shows object storage resources.",
+        "example_queries": [
+            "list s3 buckets",
+            "show all buckets",
+            "what buckets do I have",
+            "show storage",
+            "list object storage"
+        ],
+        "required_parameters": [],
+        "optional_parameters": [],
+        "service_tags": [
+            "s3",
+            "storage"
+        ],
+        "synonyms": [
+            "buckets",
+            "storage",
+            "object storage",
+            "s3"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "tool_name": "aws_list_rds_instances",
+        "domain": "inventory",
+        "description": "Lists all RDS database instances with engine type, size, and status. Shows managed database resources.",
+        "example_queries": [
+            "list rds instances",
+            "show databases",
+            "what databases do I have",
+            "list rds",
+            "show database instances"
+        ],
+        "required_parameters": [],
+        "optional_parameters": [
+            "region"
+        ],
+        "service_tags": [
+            "rds",
+            "database"
+        ],
+        "synonyms": [
+            "databases",
+            "db instances",
+            "rds",
+            "managed databases"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "tool_name": "aws_list_lambda_functions",
+        "domain": "inventory",
+        "description": "Lists all Lambda functions with runtime and memory configuration. Shows serverless compute resources.",
+        "example_queries": [
+            "list lambda functions",
+            "show serverless functions",
+            "what lambda functions exist",
+            "list functions",
+            "show lambda"
+        ],
+        "required_parameters": [],
+        "optional_parameters": [
+            "region"
+        ],
+        "service_tags": [
+            "lambda",
+            "serverless",
+            "compute"
+        ],
+        "synonyms": [
+            "functions",
+            "lambda",
+            "serverless",
+            "FaaS"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "tool_name": "aws_get_cloudwatch_logs",
+        "domain": "logs",
+        "description": "Fetches log events from CloudWatch Logs for a specific log group. Retrieves application and service logs.",
+        "example_queries": [
+            "fetch cloudwatch logs",
+            "show application logs",
+            "get logs from cloudwatch",
+            "show log events",
+            "retrieve logs",
+            "fetch all logs"
+        ],
+        "required_parameters": [
+            "log_group_name"
+        ],
+        "optional_parameters": [
+            "start_time",
+            "end_time",
+            "filter_pattern",
+            "limit"
+        ],
+        "service_tags": [
+            "cloudwatch",
+            "logs"
+        ],
+        "synonyms": [
+            "logs",
+            "log events",
+            "cloudwatch",
+            "application logs"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "tool_name": "aws_list_cloudwatch_log_groups",
+        "domain": "logs",
+        "description": "Lists all CloudWatch log groups in the account. Shows available log streams and groups.",
+        "example_queries": [
+            "list log groups",
+            "show cloudwatch log groups",
+            "what log groups exist",
+            "show all logs",
+            "list logging resources"
+        ],
+        "required_parameters": [],
+        "optional_parameters": [],
+        "service_tags": [
+            "cloudwatch",
+            "logs"
+        ],
+        "synonyms": [
+            "log groups",
+            "logs",
+            "cloudwatch",
+            "logging"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "tool_name": "aws_get_account_id",
+        "domain": "account",
+        "description": "Returns the AWS account ID. Shows account identification number.",
+        "example_queries": [
+            "what is my account id",
+            "show account id",
+            "get account number",
+            "account id",
+            "my aws account"
+        ],
+        "required_parameters": [],
+        "optional_parameters": [],
+        "service_tags": [
+            "sts",
+            "account"
+        ],
+        "synonyms": [
+            "account",
+            "account id",
+            "account number"
+        ],
+        "version": "1.0.0"
+    },
+    {
+        "tool_name": "aws_get_enabled_regions",
+        "domain": "account",
+        "description": "Lists all enabled AWS regions for the account. Shows available geographic regions.",
+        "example_queries": [
+            "what regions are enabled",
+            "list enabled regions",
+            "show available regions",
+            "which regions can I use",
+            "get regions"
+        ],
+        "required_parameters": [],
+        "optional_parameters": [],
+        "service_tags": [
+            "ec2",
+            "regions",
+            "account"
+        ],
+        "synonyms": [
+            "regions",
+            "enabled regions",
+            "available regions"
+        ],
+        "version": "1.0.0"
+    }
+]

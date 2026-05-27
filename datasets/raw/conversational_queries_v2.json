@@ -1,0 +1,1994 @@
+[
+    {
+        "query": "hi",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hello",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "good morning",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "good evening",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hi there",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "morning",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "yo",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey there",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hello there",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "good afternoon",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hiya",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "howdy",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "greetings",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey bot",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hello assistant",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hi aws",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "good day",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what's up",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "sup",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "how's it going",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "how are you",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "how are you doing",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "are you there",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "you there",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "is anyone there",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "test",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "testing",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "ping",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey can you hear me",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hello hello",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hi hi",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "good morning there",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "evening",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "afternoon",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey howdy",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hi how are you",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hello how's it going",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "good morning how are you",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey there howdy",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what can you do",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "how can you help",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what services are supported",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what tools do you have",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what can i ask you",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what questions can i ask",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what do you support",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what aws data can you show me",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what metrics do you have access to",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what reports can you generate",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what cost data can you show",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "can you show cost trends",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "can you show service breakdowns",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "can you show regional costs",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "can you forecast costs",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "can you list ec2 instances",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "can you list s3 buckets",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "can you show my account info",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what commands do you understand",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "how do i ask for costs",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "how do i get a forecast",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "show me examples",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "give me examples",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "example queries",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "sample questions",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "who are you",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what is this system",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "are you connected to AWS",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what are you",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "tell me about yourself",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "are you an AI",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "are you a bot",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "are you human",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what company made you",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "do you have access to my aws account",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "are you secure",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "is my data safe",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "do you store my queries",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "what permissions do you have",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "are you read only",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "can you make changes to my account",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "thanks",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "thank you",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "ok",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "cool",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "great",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "awesome",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "nice",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "perfect",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "excellent",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "thank you very much",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "thanks a lot",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "cheers",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "appreciate it",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "much appreciated",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "got it",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "understood",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "makes sense",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "clear",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "yes",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "no",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "sure",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "alright",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "okay thanks",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "cool thanks",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "great thanks",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "perfect thanks",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "awesome thanks",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hi show last month cost",
+        "expected_tool": "aws_get_last_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "good morning what is my bill today",
+        "expected_tool": "aws_get_today_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "today",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey show me yesterday's spend",
+        "expected_tool": "aws_get_yesterday_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "yesterday",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hello what did we spend this month",
+        "expected_tool": "aws_get_current_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "current_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "good evening show EC2 costs last month",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": "EC2",
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": "service",
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey there what's my account alias",
+        "expected_tool": "aws_get_account_alias",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hi can you list my S3 buckets",
+        "expected_tool": "aws_list_s3_buckets",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hello show me cost trend last 6 months",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_6_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "good morning forecast next month spend",
+        "expected_tool": "aws_get_cost_forecast",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "next_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey what regions are enabled",
+        "expected_tool": "aws_get_enabled_regions",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hi there show me Lambda functions",
+        "expected_tool": "aws_list_lambda_functions",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "yo what's my caller identity",
+        "expected_tool": "aws_get_caller_identity",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey show RDS instances in us-east-1",
+        "expected_tool": "aws_list_rds_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": "us-east-1",
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": "region",
+        "confidence_level": "high"
+    },
+    {
+        "query": "hello good morning show costs by region last month",
+        "expected_tool": "aws_get_cost_by_region",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hi how are you show me today's spend",
+        "expected_tool": "aws_get_today_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "today",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "good afternoon what can you do show last month bill",
+        "expected_tool": "aws_get_last_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey thanks show EC2 cost trend",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_6_months",
+            "service": "EC2",
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "expected_action": "route_to_tool",
+        "modifier": "service",
+        "confidence_level": "high"
+    },
+    {
+        "query": "hello cool show me forecast in INR",
+        "expected_tool": "aws_get_cost_forecast",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "next_month",
+            "service": null,
+            "region": null,
+            "currency": "INR",
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": "currency",
+        "confidence_level": "high"
+    },
+    {
+        "query": "hi there awesome list EC2 instances ap-south-1",
+        "expected_tool": "aws_list_ec2_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": "ap-south-1",
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": "region",
+        "confidence_level": "high"
+    },
+    {
+        "query": "good evening perfect show S3 spending last quarter",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_3_months",
+            "service": "S3",
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "expected_action": "route_to_tool",
+        "modifier": "service",
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey morning show me cost breakdown by service",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hi what is this system show regional costs",
+        "expected_tool": "aws_get_cost_by_region",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hello are you connected to AWS list my buckets",
+        "expected_tool": "aws_list_s3_buckets",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "good morning who are you show today cost",
+        "expected_tool": "aws_get_today_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "today",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey thanks very much show me last month in EUR",
+        "expected_tool": "aws_get_last_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": null,
+            "currency": "EUR",
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": "currency",
+        "confidence_level": "high"
+    },
+    {
+        "query": "hi cool show daily view last week",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_7_days",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "DAILY"
+        },
+        "expected_action": "route_to_tool",
+        "modifier": "granularity",
+        "confidence_level": "high"
+    },
+    {
+        "query": "hello great show EC2 only monthly",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": "EC2",
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "expected_action": "route_to_tool",
+        "modifier": "service + granularity",
+        "confidence_level": "high"
+    },
+    {
+        "query": "good evening excellent compare last month and previous",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_2_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "expected_action": "route_to_tool",
+        "modifier": "comparison",
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey there perfect show me ap-south-1 costs",
+        "expected_tool": "aws_get_cost_by_region",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_month",
+            "service": null,
+            "region": "ap-south-1",
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": "region",
+        "confidence_level": "high"
+    },
+    {
+        "query": "hi ok list all Lambda functions",
+        "expected_tool": "aws_list_lambda_functions",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hello alright show RDS instances",
+        "expected_tool": "aws_list_rds_instances",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "good morning sure what's my identity",
+        "expected_tool": "aws_get_caller_identity",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey got it show account alias",
+        "expected_tool": "aws_get_account_alias",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hi understood show enabled regions",
+        "expected_tool": "aws_get_enabled_regions",
+        "expected_domain": "account",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hello makes sense show cost forecast next quarter",
+        "expected_tool": "aws_get_cost_forecast",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "next_3_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "good evening clear show me EC2 cost last 30 days daily",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_30_days",
+            "service": "EC2",
+            "region": null,
+            "currency": null,
+            "granularity": "DAILY"
+        },
+        "expected_action": "route_to_tool",
+        "modifier": "service + granularity",
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey yes show S3 buckets with size",
+        "expected_tool": "aws_list_s3_buckets",
+        "expected_domain": "resource",
+        "expected_parameters": {
+            "time_range": null,
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hi no wait show me yesterday cost first",
+        "expected_tool": "aws_get_yesterday_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "yesterday",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hello maybe show current month spending",
+        "expected_tool": "aws_get_current_month_cost",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "current_month",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": null
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "good morning possibly show cost by service last quarter",
+        "expected_tool": "aws_get_cost_by_service",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_3_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hey not sure show me trend last 90 days",
+        "expected_tool": "aws_get_cost_trend",
+        "expected_domain": "cost",
+        "expected_parameters": {
+            "time_range": "last_3_months",
+            "service": null,
+            "region": null,
+            "currency": null,
+            "granularity": "MONTHLY"
+        },
+        "expected_action": "route_to_tool",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "hi show me",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "clarify_intent",
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "hello give me",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "clarify_intent",
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "hey what",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "clarify_intent",
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "hi there can you",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "clarify_intent",
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "good morning i need",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "clarify_intent",
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "show",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "clarify_intent",
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "give",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "clarify_intent",
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "help",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "help me",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "i need help",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "can you help",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "assist me",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "support",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "documentation",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "manual",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "guide",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "instructions",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "how to",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "clarify_intent",
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "how do i",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "clarify_intent",
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "what is",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "clarify_intent",
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "tell me about",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "clarify_intent",
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "explain",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "clarify_intent",
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "describe",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "clarify_intent",
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "define",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "clarify_intent",
+        "modifier": null,
+        "confidence_level": "clarify"
+    },
+    {
+        "query": "hi",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "start over",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "begin again",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "new session",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "clear context",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "forget previous",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "reset",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "cancel",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "stop",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "exit",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "quit",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "bye",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "goodbye",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "see you",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "later",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "cya",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "ttyl",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "talk later",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "catch you later",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "have a good day",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    },
+    {
+        "query": "take care",
+        "expected_tool": null,
+        "expected_domain": "conversational",
+        "expected_parameters": null,
+        "expected_action": "respond_directly",
+        "modifier": null,
+        "confidence_level": "high"
+    }
+]
